@@ -1,6 +1,6 @@
 # Easy Visa For Myanmar WordPress Theme
 
-A clean, mobile-friendly WordPress theme for worldwide visa and travel support services. Main service coverage includes Thailand, Singapore, Vietnam, Laos, Malaysia, and other countries.
+A WordPress theme for worldwide visa and travel support services. Main service coverage includes Thailand, Singapore, Vietnam, Laos, Malaysia, and other countries.
 
 **Current version:** `v59 / 1.5.9`  
 **WordPress:** 6.0+  
@@ -21,11 +21,9 @@ Themese URL: https://easyvisaformyanmar.com/
 ![Theme Preview](docs/theme-preview-screenshot.png)
 
 
-## GitHub-ready package
+## Layout
 
-This repository package is ready to upload to GitHub. The editable WordPress theme source is in `easy-visa-myanmar/`. The installable WordPress ZIP is in `releases/`.
-
-For upload steps, see `UPLOAD_TO_GITHUB.md`.
+The editable WordPress theme source is in `easy-visa-myanmar/`. The installable WordPress ZIP is in `releases/`.
 
 ## Main features
 
@@ -112,28 +110,15 @@ The theme includes nonce checks, honeypots, timed form tokens, rate limits, susp
 
 A WordPress theme cannot fully stop real network-level DDoS by itself. Use Cloudflare or hosting-provider DDoS protection.
 
-## GitHub upload example
-
-```bash
-git init
-git add .
-git commit -m "Initial Easy Visa For Myanmar v59 theme"
-git branch -M main
-git remote add origin https://github.com/itsmeminsithu/easy-visa-myanmar-wordpress-theme.git
-git push -u origin main
-```
-
 ## Recommended repository structure
 
 ```text
-easy-visa-myanmar-wordpress-theme/
 ├── easy-visa-myanmar/              # WordPress theme folder
-├── docs/
-│   ├── PROJECT_RECAP.md
-│   ├── SECURITY.md
-│   └── MINDDRAW_EXPLAIN.md
+├── docs/                           # recaps, guides, screenshots, mindmap
+├── releases/                       # installable theme ZIP (v59)
 ├── README.md
 ├── CHANGELOG.md
+├── SECURITY.md
 └── .gitignore
 ```
 
